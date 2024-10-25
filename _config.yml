@@ -18,6 +18,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
+
+![Alt text](assets/mypic.jpg)
+
 title: Mohamed Ameen, PhD
 email: m.s.s.ameen7@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
