@@ -24,12 +24,13 @@
 title: Mohamed Ameen, PhD
 email: m.s.s.ameen7@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Hey! Welcome to my page and thank for an interest in my journey.
+  Hey! Welcome to my page and thanks for your interest in my journey.
   I live to know more about the world. I work to let the world know more about itself.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+twitter_username: mo_s_ameen
+github_username:  mohamedsameen
+linkedin_username: mohamed-s-ameen
 
 # Build settings
 theme: minima
