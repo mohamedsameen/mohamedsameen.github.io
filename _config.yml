@@ -18,6 +18,8 @@ plugins:
   - jekyll-seo-tag
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-include-cache
+
 
 markdown: kramdown
 highlighter: rouge
