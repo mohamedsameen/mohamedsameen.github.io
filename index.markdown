@@ -1,10 +1,9 @@
 ---
-
-layout: home
-
+layout: splash
 title: "Hi, I'm Mohamed"
-subtitle: "I'm a Neuroscientist expolring the Brain in action." 
-background-image: /assets/images/mainPic.jpg
+subtitle: "I'm a Neuroscientist exploring the Brain in action."
+header:
+  overlay_image: /assets/images/mainPic.jpg
 ---
 
 Salam alaykom
