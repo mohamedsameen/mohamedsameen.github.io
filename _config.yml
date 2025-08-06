@@ -30,12 +30,13 @@ twitter_username: jekyllrb
 github_username:  jekyll
 
 # Build settings
-theme: minimal-mistakes-jekyll
+#theme: minimal-mistakes-jekyll
+remote_theme: mistakes/minimal-mistakes@4.24.0
+
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
-remote_theme: mistakes/minimal-mistakes@4.24.0
 
 header_pages: 
   - about.md
