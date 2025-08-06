@@ -11,7 +11,7 @@ github_username:  mohamedsameen
 
 # Build settings
 #theme: minimal-mistakes-jekyll
-remote_theme: mmistakes/minimal-mistakes@4.24.0
+remote_theme: "mmistakes/minimal-mistakes"
 
 plugins:
   - jekyll-remote-theme
