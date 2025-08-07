@@ -1,42 +1,38 @@
-/* Full-width hero image */
-.page__hero img {
+/* Nuclear option for hero image */
+.page__hero {
+    position: relative;
     width: 100vw;
-    height: 300px;
-    margin-left: calc(-50vw + 50%);
-    object-fit: cover;
-    max-width: none;
-    display: block; /* Removes inline spacing */
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    overflow: hidden;
+    height: 250px; /* Set your exact desired height */
 }
 
-/* Nuclear option for content container */
-body.home .page,
-body.home .page__content,
-body.home .page__header,
-body.home .entries-list {
-    max-width: 700px !important;
-    margin-left: auto !important;
-    margin-right: auto !important;
-    padding-left: 1.5rem !important;
-    padding-right: 1.5rem !important;
-    box-sizing: border-box !important;
-}
-
-/* Specific content area */
-body.home .page__content {
-    line-height: 1.6;
+.page__hero img {
     width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
 }
 
-/* Mobile responsiveness */
-@media (max-width: 768px) {
-    body.home .page,
-    body.home .page__content {
-        padding-left: 1rem !important;
-        padding-right: 1rem !important;
-    }
+/* Center-aligned content */
+.home .page__content {
+    max-width: 700px;
+    margin: 2rem auto;
+    padding: 0 1.5rem;
+    text-align: center;
 }
 
-/* Debug borders - remove after verification */
-body.home .page { border: 1px solid blue; }
-body.home .page__content { border: 1px solid green; }
-body.home .entries-list { border: 1px solid red; }
+.profile-header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.subtitle {
+    color: #4c566a; /* Subtle gray */
+    font-size: 1.2rem;
+    margin-top: -0.8rem;
+}

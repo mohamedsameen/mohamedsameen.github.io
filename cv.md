@@ -8,6 +8,12 @@ nav_order: 2  # Adjust position (e.g., 2 = after Home)
 
 [Download CV as PDF](/assets/files/AMEEN_Resume_AUG25.pdf){: .btn .btn--primary}
 
+<div class="profile-header">
+  <img src="/assets/images/profile.jpg" alt="Your Name" class="profile-photo">
+  <h1>Your Full Name</h1>
+  <p class="subtitle">Your Professional Title</p>
+</div>
+
 ## RESEARCH EXPERIENCE
 
 ### University of Salzburg, Centre for Cognitive Neuroscience (CCNS) – Salzburg, Austria
