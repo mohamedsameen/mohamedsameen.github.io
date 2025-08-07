@@ -34,8 +34,8 @@ nav_order: 2  # Adjust position (e.g., 2 = after Home)
 •	Contributed research insights toward the company’s personalized sleep system.  
 
 ### University of Salzburg, Lab for Sleep and Consciousness Research, Salzburg, Austria
-#### *Predoctoral Researcher | Mar 2017 – Feb 2019*
-•	Conducted Digital Biomarkers studies to validate wearable sleep tech (cited in 60+ studies). 
+#### *Predoctoral Researcher | Mar 2017 – Feb 2019*  
+•	Conducted Digital Biomarkers studies to validate wearable sleep tech (cited in 60+ studies).   
 •	A successful grant applications totalling over €150k.  
 
 ### S.A.T. Pharmacies, Cairo, Egypt
