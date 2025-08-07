@@ -1,11 +1,10 @@
 ---
 layout: home
-title: "Hi, I'm Mohamed"
-subtitle: "I'm a Neuroscientist exploring the brain in action."
+#title: "Hi, I'm Mohamed"
+#subtitle: "I'm a Neuroscientist exploring the brain in action."
 ---
 
-<div class="full-width-hero">
-  <img src="/assets/images/IMG_1872.JPEG" alt="Hero image" style="width:100%; height:auto;">
+<div style="width: 100%; background: url('/assets/images/IMG_1872.JPEG') center / cover no-repeat; height: 60vh; margin-bottom: 2rem;">
 </div>
 
 **Mohamed S. Ameen**
