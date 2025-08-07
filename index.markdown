@@ -1,9 +1,9 @@
 ---
 layout: home
 title: "BIO"
-header:
-  image: /assets/images/mainPic.jpg
-  alt: "Header image"
+#header:
+ # image: /assets/images/mainPic.jpg
+ # alt: "Header image"
 ---
 
 Hi there! I'm Mohamed.  
