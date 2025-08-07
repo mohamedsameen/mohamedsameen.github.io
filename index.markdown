@@ -1,9 +1,9 @@
 ---
-layout: splash
-title: ""
+layout: home
+title: "Hi, I'm Mohamed"
 subtitle: "I'm a Neuroscientist exploring the Brain in action."
-header:
-  overlay_image: /assets/images/IMG_1872.JPEG
 ---
+
+![Profile image](/assets/images/IMG_1872.JPEG)
 
 **Mohamed S. Ameen**

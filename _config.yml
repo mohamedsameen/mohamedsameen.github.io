@@ -1,4 +1,4 @@
-title: Mohamed S. Ameen
+title: ""
 email: m.s.s.ameen7@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
@@ -6,12 +6,16 @@ description: >- # this means to ignore newlines until "baseurl:"
   Google search results) and in your feed.xml site description.
 baseurl: "/my-site" # the subpath of your site, e.g. /blog
 url: "https://mohamedsameen.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
+#twitter_username: jekyllrb
 github_username:  mohamedsameen
 
 # Build settings
 #theme: minimal-mistakes-jekyll
-remote_theme: "mmistakes/minimal-mistakes"
+remote_theme: "erssec/jekyll-theme-basically-science"
+
+title: "Mohamed S. Ameen"
+description: "Neuroscientist exploring the brain in action"
+
 
 plugins:
   - jekyll-remote-theme
