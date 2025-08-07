@@ -2,8 +2,7 @@
 layout: single
 title: "Bio"
 date: 2025-08-06 14:14:39 +0200
-categories: jekyll update
-excerpt: ""
+
 ---
 
 Hi there! I'm Mohamed.  
@@ -26,3 +25,5 @@ The list goes on and on...
 
 This is my story — shaped by signals, identities, and, most importantly, dreams.  
 **Welcome.**
+
+<!-- more -->
