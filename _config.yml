@@ -11,7 +11,7 @@ github_username:  mohamedsameen
 
 # Build settings
 #theme: minimal-mistakes-jekyll
-remote_theme: "erssec/jekyll-theme-basically-science"
+remote_theme: "valdezmatt/jekyll-theme-basically-science"
 
 title: "Mohamed S. Ameen"
 description: "Neuroscientist exploring the brain in action"
