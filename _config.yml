@@ -1,9 +1,6 @@
 title: "Signals of Thought"
 #email: m.s.s.ameen7@gmail.com
 
-header:
-  image: /assets/images/IMG_1872.JPEG  # Update this
-
 baseurl: "/my-site" # the subpath of your site, e.g. /blog
 url: "https://mohamedsameen.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
@@ -42,7 +39,12 @@ collections:
     output: true
     permalink: /research/:title/
     
-      
+nav:
+  - title: "Home"
+    url: /
+  - title: "CV"
+    url: /cv/
+  # Keep other existing links...
   # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
