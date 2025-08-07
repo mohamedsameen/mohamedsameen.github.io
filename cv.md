@@ -13,9 +13,9 @@ nav_order: 2  # Adjust position (e.g., 2 = after Home)
 
 ### University of Salzburg, Centre for Cognitive Neuroscience (CCNS) – Salzburg, Austria
 #### *Senior Scientist | Apr 2024 – Present*
-•	Leading cross-disciplinary neuroscience projects on EEG and brain-body interaction.  
-•	Project management: Leading teams of researchers to analyse complex physiological data delivering 2 scientific papers.  
-•	Building automated pipelines in Python, MATLAB, and R for data preprocessing and statistical analysis.  
+•	Leading cross-disciplinary neuroscience projects and managing research teams analyzing complex physiological data, including EEG and brain–body interactions; work has resulted in two scientific publications.      
+•	Developing machine learning pipelines using PyTorch to predict biomarker changes from sleep data.  
+•	Building automated workflows in Python, MATLAB, and R for data preprocessing and advanced statistical analysis.   
 
 ### Columbia University, Department of Biomedical Engineering – New York, USA
 #### *Visiting Researcher | Oct 2022 – Feb 2023*

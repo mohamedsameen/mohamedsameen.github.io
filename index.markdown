@@ -2,7 +2,7 @@
 layout: home
 title: "BIO"
 header:
-  image: /assets/images/IMG_1872.JPEG
+  image: /assets/images/IMG_edited.jpg
   alt: "Header image"
 ---
 
