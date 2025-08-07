@@ -1,0 +1,5 @@
+.page__hero img {
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
+    max-width: none;
+}
