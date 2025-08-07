@@ -1,28 +1,42 @@
-/* Full-width hero image (existing) */
+/* Full-width hero image */
 .page__hero img {
     width: 100vw;
-    height: 300px; /* Adjust this value to your preferred height */
+    height: 300px;
     margin-left: calc(-50vw + 50%);
-    object-fit: cover; /* Ensures image fills container without distortion */
+    object-fit: cover;
     max-width: none;
+    display: block; /* Removes inline spacing */
 }
 
-/* New adjustments for content */
-.page {
-    max-width: 42rem; /* Optimal reading width (≈700px) */
-    margin: 0 auto; /* Center content */
-    padding: 0 1.5rem; /* Comfortable side padding */
+/* Nuclear option for content container */
+body.home .page,
+body.home .page__content,
+body.home .page__header,
+body.home .entries-list {
+    max-width: 700px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    padding-left: 1.5rem !important;
+    padding-right: 1.5rem !important;
+    box-sizing: border-box !important;
 }
 
-/* Adjust entry/list items */
-.entry {
-    max-width: 100%; /* Use parent container width */
-    padding: 0; /* Remove any default padding */
+/* Specific content area */
+body.home .page__content {
+    line-height: 1.6;
+    width: 100%;
 }
 
-/* Responsive adjustments */
-@media screen and (max-width: 600px) {
-    .page {
-        padding: 0 1rem; /* Tighter padding on mobile */
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    body.home .page,
+    body.home .page__content {
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
     }
 }
+
+/* Debug borders - remove after verification */
+body.home .page { border: 1px solid blue; }
+body.home .page__content { border: 1px solid green; }
+body.home .entries-list { border: 1px solid red; }

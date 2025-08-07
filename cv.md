@@ -6,7 +6,7 @@ nav: true  # Show in navigation
 nav_order: 2  # Adjust position (e.g., 2 = after Home)
 ---
 
-# Curriculum Vitae
+[Download PDF CV](/assets/files/AMEEN_Resume_AUG25.pdf){: .btn .btn--primary}
 
 # RESEARCH EXPERIENCE
 University of Salzburg, Centre for Cognitive Neuroscience (CCNS) – Salzburg, Austria
