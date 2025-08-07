@@ -13,9 +13,6 @@ github_username:  mohamedsameen
 #theme: minimal-mistakes-jekyll
 remote_theme: "valdezmatt/jekyll-theme-basically-science"
 
-title: "Mohamed S. Ameen"
-description: "Neuroscientist exploring the brain in action"
-
 
 plugins:
   - jekyll-remote-theme
