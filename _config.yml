@@ -1,7 +1,5 @@
-title: "Signal of Thought"
+title: "Signals of Thought"
 #email: m.s.s.ameen7@gmail.com
-header:
-  image: /assets/images/IMG_1872.JPEG'
 
 baseurl: "/my-site" # the subpath of your site, e.g. /blog
 url: "https://mohamedsameen.github.io" # the base hostname & protocol for your site, e.g. http://example.com
@@ -12,7 +10,12 @@ github_username:  mohamedsameen
 #theme: minimal-mistakes-jekyll
 remote_theme: "valdezmatt/jekyll-theme-basically-science"
 
-
+sass:
+  style: compressed
+  load_paths:
+    - _sass
+    - assets/css
+    
 plugins:
   - jekyll-remote-theme
   - jekyll-seo-tag
