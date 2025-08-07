@@ -1,5 +1,28 @@
+/* Full-width hero image (existing) */
 .page__hero img {
     width: 100vw;
+    height: 300px; /* Adjust this value to your preferred height */
     margin-left: calc(-50vw + 50%);
+    object-fit: cover; /* Ensures image fills container without distortion */
     max-width: none;
+}
+
+/* New adjustments for content */
+.page {
+    max-width: 42rem; /* Optimal reading width (≈700px) */
+    margin: 0 auto; /* Center content */
+    padding: 0 1.5rem; /* Comfortable side padding */
+}
+
+/* Adjust entry/list items */
+.entry {
+    max-width: 100%; /* Use parent container width */
+    padding: 0; /* Remove any default padding */
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 600px) {
+    .page {
+        padding: 0 1rem; /* Tighter padding on mobile */
+    }
 }
