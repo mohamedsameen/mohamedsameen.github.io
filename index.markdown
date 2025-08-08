@@ -6,10 +6,10 @@ header:
   alt: "Header image"
 ---
 
-   Hi there! I'm Mohamed.  
-   In Europe, I'm Mohamed Ameen.  
-   In the science world, I go by Mohamed S. Ameen.  
-   On my passport: Mohamed Safwat Salaheldeen Ameen.  
+\hspace{2em}Hi there! I'm Mohamed.  
+\hspace{2em}In Europe, I'm Mohamed Ameen.  
+\hspace{2em}In the science world, I go by Mohamed S. Ameen.  
+\hspace{2em}On my passport: Mohamed Safwat Salaheldeen Ameen.  
    And in Egypt, simply: Safwat.  
 
 Sounds confusing? Trust me, my life is no less messy.  
