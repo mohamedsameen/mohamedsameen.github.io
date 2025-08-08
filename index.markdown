@@ -1,6 +1,6 @@
 ---
 layout: home
-title: "<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Bio"
+title: "<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Bio"
 header:
   image: /assets/images/IMG_edited.jpg
   alt: "Header image"
@@ -11,6 +11,19 @@ header:
   <tr>
     <td style="vertical-align: top; padding-right: 20px;">
       <img src="{{ site.baseurl }}/assets/images/mainPic.jpg" alt="My Photo" width="300" style="border-radius: 8px;"/>
+
+      <div style="margin-top: 15px;">
+       <a href="https://orcid.org/0000-0003-4147-490X" target="_blank" rel="noopener noreferrer" style="margin: 0 10px;">
+      <img src="{{ site.baseurl }}/assets/icons/orcid-og-image.png" alt="OrcID" width="30" />
+    </a>
+    <a href="https://www.linkedin.com/in/mohamed-s-ameen/" target="_blank" rel="noopener noreferrer" style="margin: 0 10px;">
+      <img src="{{ site.baseurl }}/assets/icons/lnkdin.png" alt="LinkedIn" width="30" />
+    </a>
+    <a href="https://github.com/mohamedsameen" target="_blank" rel="noopener noreferrer" style="margin: 0 10px;">
+      <img src="{{ site.baseurl }}/assets/icons/github.png" alt="GitHub" width="30" />
+    </a>
+  </div>
+
     </td>
     <td>
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hi there! I'm Mohamed.  <br>
