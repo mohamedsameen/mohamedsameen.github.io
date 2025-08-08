@@ -1,6 +1,6 @@
 ---
 layout: home
-title: "<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Bio"
+title: "<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Bio"
 header:
   image: /assets/images/IMG_edited.jpg
   alt: "Header image"
@@ -10,7 +10,7 @@ header:
 <table>
   <tr>
     <td style="vertical-align: top; padding-right: 20px;">
-      <img src="{{ site.baseurl }}/assets/images/mainPic.jpg" alt="My Photo" width="300" style="border-radius: 8px;"/>
+      <img src="{{ site.baseurl }}/assets/images/mainPic.jpg" alt="My Photo" width="400" style="border-radius: 12px; border: 3px solid #555;"/>
 
       <div style="margin-top: 15px;">
        <a href="https://orcid.org/0000-0003-4147-490X" target="_blank" rel="noopener noreferrer" style="margin: 0 10px;">

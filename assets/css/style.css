@@ -47,3 +47,15 @@
   height: 40px;
   width: auto;
 }
+
+/*  icon links */
+a {
+  text-decoration: none;
+}
+
+/* Make icon images block elements to avoid inline gaps */
+a img {
+  display: block;
+  border: none;
+  outline: none;
+}
