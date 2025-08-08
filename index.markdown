@@ -12,17 +12,18 @@ header:
 &nbsp;&nbsp;&nbsp;On my passport: Mohamed Safwat Salaheldeen Ameen.  
 &nbsp;&nbsp;&nbsp;And in Egypt, simply: Safwat.  
 
-Sounds confusing? Trust me, my life is no less messy.  
+&nbsp;&nbsp;&nbsp;Sounds confusing? Trust me, my life is no less messy.  
 
-I am a proud Muslim, Arab, African, Egyptian, but  
-I have lived most of my adult life in Europe.  
-Am I European? Am I Egyptian?  
-"I am everything and nothing."  
+&nbsp;&nbsp;&nbsp;I am a proud Muslim, Arab, African, Egyptian, but  
+&nbsp;&nbsp;&nbsp;I have lived most of my adult life in Europe.  
+&nbsp;&nbsp;&nbsp;Am I European? Am I Egyptian?  
+&nbsp;&nbsp;&nbsp;"I am everything and nothing."  
 
-I am originally a Pharmacist (B.Sc. – Egypt), but  
-I studied Neuroscience (M.Sc. – France) too,  
-and somehow ended up surrounded by psychologists studying cognition and sleep (PhD – Austria).  
-The list goes on and on...  
+&nbsp;&nbsp;&nbsp;I am originally a Pharmacist (B.Sc. – Egypt), but  
+&nbsp;&nbsp;&nbsp;I studied Neuroscience (M.Sc. – France) too,  
+&nbsp;&nbsp;&nbsp;and somehow ended up surrounded by psychologists studying cognition and sleep (PhD – Austria).  
+&nbsp;&nbsp;&nbsp;The list goes on and on...  
 
-This is my story — shaped by signals, identities, and, most importantly, dreams.  
-**Welcome.**
+&nbsp;&nbsp;&nbsp;This is my story — shaped by signals, identities, and, most importantly, dreams.  
+
+&nbsp;&nbsp;&nbsp;**Welcome.**
