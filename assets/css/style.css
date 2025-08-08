@@ -48,13 +48,14 @@
   width: auto;
 }
 
-/*  icon links */
-a {
+
+/* Remove underline only for icon links */
+.bio-icons a {
   text-decoration: none;
 }
 
-/* Make icon images block elements to avoid inline gaps */
-a img {
+/* Make icon images block elements */
+.bio-icons a img {
   display: block;
   border: none;
   outline: none;
