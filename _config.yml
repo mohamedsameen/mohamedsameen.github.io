@@ -44,6 +44,11 @@ nav:
     url: /
   - title: "CV"
     url: /cv/
+  - title: "Publications"
+    url: /publications/
+
+
+    
   # Keep other existing links...
   # Exclude from processing.
 # The following items will not be processed, by default.
