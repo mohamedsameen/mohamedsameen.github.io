@@ -26,6 +26,6 @@ bio_icon: /assets/images/mainPic.JPEG
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;and somehow ended up surrounded by psychologists studying cognition and sleep (PhD – Austria).  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The list goes on and on...  
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This is my story — shaped by signals, identities, and, most importantly, dreams.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This is my story — shaped by many signals of cultures, sciences and, most importantly, thought.  
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Welcome.**
