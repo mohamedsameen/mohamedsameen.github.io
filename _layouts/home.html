@@ -9,7 +9,10 @@ layout: default
 </div>
 
 <article class="page">
-    <header class="page__header">
+    <header class="page__header page__header--with-icon">
+        {% if page.bio_icon %}
+            <img class="page__header-icon" src="{{ page.bio_icon | relative_url }}" alt="Bio Icon">
+        {% endif %}
         <h1 class="page__title">{{ page.title }}</h1>
     </header>
 

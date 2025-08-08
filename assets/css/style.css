@@ -36,3 +36,14 @@
     font-size: 1.2rem;
     margin-top: -0.8rem;
 }
+
+.page__header--with-icon {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.page__header-icon {
+  height: 40px;
+  width: auto;
+}

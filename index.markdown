@@ -4,11 +4,13 @@ title: "<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Bio"
 header:
   image: /assets/images/IMG_edited.jpg
   alt: "Header image"
+
+bio_icon: /assets/images/mainPic.JPEG
 ---
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hi there! I'm Mohamed.  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In Europe, I'm Mohamed Ameen.  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In the science world, I go by Mohamed S. Ameen.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In Europe, I'm Mo.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In the science world, I go by Mohamed Ameen.  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;On my passport: Mohamed Safwat Salaheldeen Ameen.  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;And in Egypt, simply: Safwat.  
 
