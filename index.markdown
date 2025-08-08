@@ -45,7 +45,7 @@ header:
 
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This is my story — shaped by many signals of cultures, sciences and, most importantly, thought.  <br><br>
 
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>Welcome.</strong>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Welcome.**
     </td>
   </tr>
 </table>
