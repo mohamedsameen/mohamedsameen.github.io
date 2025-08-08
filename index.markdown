@@ -1,9 +1,6 @@
 ---
 layout: home
-title: |
-
-Bio
-
+title: "Bio"
 header:
   image: /assets/images/IMG_edited.jpg
   alt: "Header image"
