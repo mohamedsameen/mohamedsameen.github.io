@@ -48,15 +48,16 @@
   width: auto;
 }
 
-
-.bio-icons a {
-  text-decoration: none !important;
-  border: none !important;
-  outline: none !important;
+/* Completely remove red lines from bio-icons */
+.bio-icons a::after {
+  display: none !important;
+  content: none !important;
 }
 
-.bio-icons a img {
-  display: block;
-  border: none !important;
-  outline: none !important;
+/* Optional: Add clean spacing between icons */
+.bio-icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Adjust this value for more/less spacing */
+  margin: 1.5rem 0;
 }
