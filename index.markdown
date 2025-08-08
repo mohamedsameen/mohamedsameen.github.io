@@ -14,16 +14,15 @@ header:
 
       <div style="margin-top: 15px;">
        <a href="https://orcid.org/0000-0003-4147-490X" target="_blank" rel="noopener noreferrer" style="margin: 0 10px;">
-      <img src="{{ site.baseurl }}/assets/icons/orcid-og-image.png" alt="OrcID" width="30" />
+      <img src="{{ site.baseurl }}/assets/icons/orcid-og-image.png" alt="OrcID" width="30" height="30" />
     </a>
     <a href="https://www.linkedin.com/in/mohamed-s-ameen/" target="_blank" rel="noopener noreferrer" style="margin: 0 10px;">
-      <img src="{{ site.baseurl }}/assets/icons/lnkdin.png" alt="LinkedIn" width="30" />
+      <img src="{{ site.baseurl }}/assets/icons/lnkdin.png" alt="LinkedIn" width="30" height="30" />
     </a>
     <a href="https://github.com/mohamedsameen" target="_blank" rel="noopener noreferrer" style="margin: 0 10px;">
-      <img src="{{ site.baseurl }}/assets/icons/github.png" alt="GitHub" width="30" />
+      <img src="{{ site.baseurl }}/assets/icons/github.png" alt="GitHub" width="30" height="30" />
     </a>
   </div>
-
     </td>
     <td>
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hi there! I'm Mohamed.  <br>
