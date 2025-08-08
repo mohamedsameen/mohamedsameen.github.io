@@ -50,18 +50,19 @@
 
 /* Completely remove red lines from bio-icons */
 .bio-icons a {
-  display: inline-block;   /* so link wraps tightly around image */
-  padding: 0;              /* remove any extra padding */
-  margin: 0 10px;          /* horizontal spacing between icons */
-  width: auto;             /* no forced width */
-  text-decoration: none;   /* no underline */
-}
-
-/* Optional: Add clean spacing between icons */
-.bio-icons {
-  display: flex;
+  display: inline-flex;       /* shrink to fit content */
+  align-items: center;        /* vertically center icon */
   justify-content: center;
-  gap: 20px; /* Adjust this value for more/less spacing */
-  margin: 1.5rem 0;
+  padding: 0;                  /* remove extra space */
+  margin: 0 10px;              /* spacing between icons */
+  text-decoration: none;       /* remove underline */
+  border: none;                /* no red line */
+  background: none;            /* no background */
+  width: auto;
+  height: auto;
+}
+.bio-icons a img {
+  height: 50px; /* bigger icons */
+  width: auto;
 }
 

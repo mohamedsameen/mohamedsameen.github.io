@@ -12,7 +12,7 @@ header:
     <td style="vertical-align: top; padding-right: 20px;">
       <img src="{{ site.baseurl }}/assets/images/mainPic.jpg" alt="My Photo" width="400" style="border-radius: 12px; border: 3px solid #555; margin-left: 20px;"/>
 
-      <div class="bio-icons">
+      <div class="bio-icons" style="margin-top: 15px; margin-left: 60px;">
        <a href="https://orcid.org/0000-0003-4147-490X" target="_blank" rel="noopener noreferrer" style="margin: 0 10px;">
       <img src="{{ site.baseurl }}/assets/icons/orcid.svg" alt="OrcID" width="80" height="30" />
     </a>
