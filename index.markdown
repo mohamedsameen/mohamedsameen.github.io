@@ -32,6 +32,9 @@ header:
 <table>
   <tr>
     <td style="vertical-align: top; padding-right: 20px;">
+      <img src="{{ site.baseurl }}/assets/images/mainPic.jpg" alt="My Photo" width="250" style="border-radius: 8px;"/>
+    </td>
+    <td>
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hi there! I'm Mohamed.  <br>
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In Europe, I'm Mo.  <br>
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In the science world, I go by Mohamed Ameen.  <br>
@@ -54,8 +57,6 @@ header:
 
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>Welcome.</strong>
     </td>
-    <td>
-      <img src="{{ site.baseurl }}/assets/images/mainPic.jpg" alt="My Photo" width="200" style="border-radius: 8px;"/>
-    </td>
   </tr>
 </table>
+
