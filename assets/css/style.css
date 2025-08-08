@@ -49,14 +49,14 @@
 }
 
 
-/* Remove underline only for icon links */
 .bio-icons a {
-  text-decoration: none;
+  text-decoration: none !important;
+  border: none !important;
+  outline: none !important;
 }
 
-/* Make icon images block elements */
 .bio-icons a img {
   display: block;
-  border: none;
-  outline: none;
+  border: none !important;
+  outline: none !important;
 }
