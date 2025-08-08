@@ -12,15 +12,15 @@ header:
     <td style="vertical-align: top; padding-right: 20px;">
       <img src="{{ site.baseurl }}/assets/images/mainPic.jpg" alt="My Photo" width="400" style="border-radius: 12px; border: 3px solid #555; margin-left: 20px;"/>
 
-      <div class="bio-icons" style="margin-top: 15px;">
+      <div class="bio-icons" style="margin-top: 15px; margin-left: 50px;">
        <a href="https://orcid.org/0000-0003-4147-490X" target="_blank" rel="noopener noreferrer" style="margin: 0 10px;">
-      <img src="{{ site.baseurl }}/assets/icons/orcid.svg" alt="OrcID" width="30" height="30" />
+      <img src="{{ site.baseurl }}/assets/icons/orcid.svg" alt="OrcID" width="100" height="30" />
     </a>
     <a href="https://www.linkedin.com/in/mohamed-s-ameen/" target="_blank" rel="noopener noreferrer" style="margin: 0 10px;">
-      <img src="{{ site.baseurl }}/assets/icons/lnkdin.svg" alt="LinkedIn" width="30" height="30" />
+      <img src="{{ site.baseurl }}/assets/icons/lnkdin.svg" alt="LinkedIn" width="100" height="30" />
     </a>
     <a href="https://github.com/mohamedsameen" target="_blank" rel="noopener noreferrer" style="margin: 0 10px;">
-      <img src="{{ site.baseurl }}/assets/icons/github.svg" alt="GitHub" width="30" height="30" />
+      <img src="{{ site.baseurl }}/assets/icons/github.svg" alt="GitHub" width="100" height="30" />
     </a>
   </div>
     </td>
@@ -29,7 +29,7 @@ header:
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In Europe, I'm Mo.  <br>
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In the science world, I go by Mohamed Ameen.  <br>
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;On my passport: Mohamed Safwat Salaheldeen Ameen.  <br>
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;And in Egypt, simply: Safwat.  <br><br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;And in Egypt: Safwat.  <br><br>
 
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sounds confusing? Trust me, my life is no less messy.  <br><br>
 
