@@ -1,6 +1,6 @@
 ---
 layout: home
-title: "&nbsp;&nbsp;&nbsp;Bio"
+title: "<br>&nbsp;&nbsp;&nbsp;Bio"
 header:
   image: /assets/images/IMG_edited.jpg
   alt: "Header image"
