@@ -1,16 +1,16 @@
 ---
 layout: home
-title: "Bio"
+title: "&nbsp;&nbsp;&nbsp;Bio"
 header:
   image: /assets/images/IMG_edited.jpg
   alt: "Header image"
 ---
 
-\hspace{2em}Hi there! I'm Mohamed.  
-\hspace{2em}In Europe, I'm Mohamed Ameen.  
-\hspace{2em}In the science world, I go by Mohamed S. Ameen.  
-\hspace{2em}On my passport: Mohamed Safwat Salaheldeen Ameen.  
-   And in Egypt, simply: Safwat.  
+&nbsp;&nbsp;&nbsp;Hi there! I'm Mohamed.  
+&nbsp;&nbsp;&nbsp;In Europe, I'm Mohamed Ameen.  
+&nbsp;&nbsp;&nbsp;In the science world, I go by Mohamed S. Ameen.  
+&nbsp;&nbsp;&nbsp;On my passport: Mohamed Safwat Salaheldeen Ameen.  
+&nbsp;&nbsp;&nbsp;And in Egypt, simply: Safwat.  
 
 Sounds confusing? Trust me, my life is no less messy.  
 
