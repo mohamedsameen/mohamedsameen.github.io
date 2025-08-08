@@ -32,7 +32,7 @@ header:
 <table>
   <tr>
     <td style="vertical-align: top; padding-right: 20px;">
-      <img src="{{ site.baseurl }}/assets/images/mainPic.jpg" alt="My Photo" width="150" style="border-radius: 8px;"/>
+      <img src="{{ site.baseurl }}/assets/images/mainPic.jpg" alt="My Photo" width="200" style="border-radius: 8px;"/>
     </td>
     <td>
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hi there! I'm Mohamed.  <br>
