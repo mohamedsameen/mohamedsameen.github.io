@@ -1,3 +1,10 @@
+
+- year: 2025
+  title: "Selective preservation of prediction-related signals in human sleep"
+  authors: "Topalidis, Pavlos I and Demarchi, Gianpaolo and Reisinger, Lisa and Schubert, Juliane and Ameen, Mohamed S and Weisz, Nathan and Schabus, Manuel"
+  journal: "Current Biology"
+  url: "https://www.sciencedirect.com/science/article/pii/S096098222500380X"
+
 - year: 2024
   title: "Neural speech tracking in newborns: prenatal learning and contributing factors"
   authors: "Florea, Cristina, Reimann, Michaela, Schmidt, Fabian, Preiß, Jasmin, Reisenberger, Eva, Angerer, Monika, Ameen, Mohamed, Heib, Dominik, Roehm, Dietmar, Schabus, Manuel"
@@ -20,7 +27,7 @@
   title: "The brain selectively tunes to unfamiliar voices during sleep"
   authors: "Ameen, Mohamed S., Heib, Dominik P.J., Blume, Christine, Schabus, Manuel"
   journal: "Journal of Neuroscience"
-  url: "https://doi.org/10.1523/JNEUROSCI.1791-1803.2022"
+  url: "https://www.jneurosci.org/content/42/9/1791"
 
 - year: 2020
   title: "Procedural memory consolidation is associated with heart rate variability and sleep spindles"
