@@ -6,12 +6,21 @@ nav: true
 nav_order: 3
 ---
 
-# Selected Publications
+# Publications
 
 {% assign pubs = site.data.publications | sort: "year" | reverse %}
 
-<ul class="publication-list">
-  {% for pub in pubs %}
+{% assign current_year = nil %}
+{% for pub in pubs %}
+  {% if pub.year != current_year %}
+    {% if current_year != nil %}
+      </ul>
+    {% endif %}
+    <h2 class="pub-year">{{ pub.year }}</h2>
+    <ul class="pub-list">
+    {% assign current_year = pub.year %}
+  {% endif %}
+
   <li>
     <p class="pub-title">
       <a href="{{ pub.url | default: '#' }}" target="_blank" rel="noopener noreferrer">
@@ -19,14 +28,10 @@ nav_order: 3
       </a>
     </p>
     <p class="pub-authors">{{ pub.authors }}</p>
-    <p class="pub-journal">
-      <em>{{ pub.journal }}</em>
-      {% if pub.volume %}, <strong>{{ pub.volume }}</strong>{% endif %}
-      {% if pub.number %}({{ pub.number }}){% endif %}
-      {% if pub.pages %}, pp. {{ pub.pages }}{% endif %}
-      {% if pub.publisher %}, {{ pub.publisher }}{% endif %}
-    </p>
-    <p class="pub-year">{{ pub.year }}</p>
+    <p class="pub-journal"><em>{{ pub.journal }}</em></p>
   </li>
-  {% endfor %}
-</ul>
+  
+  {% if forloop.last %}
+    </ul>
+  {% endif %}
+{% endfor %}
