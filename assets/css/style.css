@@ -66,3 +66,37 @@
   width: auto;
 }
 
+.publication-list {
+  list-style: none;
+  padding-left: 0;
+  max-width: 700px;
+  margin: 0 auto 2rem auto;
+}
+
+.publication-list li {
+  margin-bottom: 1.5rem;
+  line-height: 1.4;
+}
+
+.pub-title a {
+  font-size: 1.15rem;
+  color: #0066cc;
+  text-decoration: none;
+}
+
+.pub-title a:hover {
+  text-decoration: underline;
+}
+
+.pub-authors {
+  font-size: 0.9rem;
+  color: #555555;
+  margin-top: 0.25rem;
+}
+
+.pub-journal {
+  font-size: 1rem;
+  font-style: italic;
+  color: #222222;
+  margin-top: 0.1rem;
+}
