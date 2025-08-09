@@ -6,31 +6,22 @@ nav: true
 nav_order: 3
 ---
 
+
 # Publications
 
-{% assign pubs = site.data.publications | sort: "year" | reverse %}
+{% assign pubs_by_year = site.data.publications | group_by: "year" | sort: "name" | reverse %}
 
-{% assign current_year = nil %}
-
-{% for pub in pubs %}
-  {% if pub.year != current_year %}
-    {% if current_year != nil %}
-      </ul>
-    {% endif %}
-    <h2 class="pub-year">{{ pub.year }}</h2>
-    <ul class="pub-list">
-    {% assign current_year = pub.year %}
-  {% endif %}
-
-  <li>
-    <p class="pub-title">
-      <a href="{{ pub.url | default: '#' }}" target="_blank" rel="noopener noreferrer">{{ pub.title }}</a>
-    </p>
-    <p class="pub-authors">{{ pub.authors }}</p>
-    <p class="pub-journal"><em>{{ pub.journal }}</em></p>
-  </li>
-
-  {% if forloop.last %}
-    </ul>
-  {% endif %}
+{% for year_group in pubs_by_year %}
+  <h2 class="pub-year">{{ year_group.name }}</h2>
+  <ul class="pub-list">
+    {% for pub in year_group.items %}
+      <li>
+        <p class="pub-title">
+          <a href="{{ pub.url }}" target="_blank" rel="noopener noreferrer">{{ pub.title }}</a>
+        </p>
+        <p class="pub-authors">{{ pub.authors }}</p>
+        <p class="pub-journal"><em>{{ pub.journal }}</em></p>
+      </li>
+    {% endfor %}
+  </ul>
 {% endfor %}

@@ -1,61 +1,43 @@
-- title: "About the accuracy and problems of consumer devices in the assessment of sleep"
-  authors: "Ameen, Mohamed S., Cheung, Lok Man, Hauser, Theresa, Hahn, Michael A., Schabus, Manuel"
-  journal: "Sensors"
-  volume: "19"
-  number: "19"
-  pages: "4160"
-  year: 2019
-  publisher: "MDPI"
-  url: "https://doi.org/10.3390/s19194160"
-
-- title: "Procedural memory consolidation is associated with heart rate variability and sleep spindles"
-  authors: "van Schalkwijk, Frank J., Hauser, Theresa, Hoedlmoser, Kerstin, Ameen, Mohamed S., et al."
-  journal: "Journal of Sleep Research"
-  volume: "29"
-  number: "3"
-  pages: "e12910"
-  year: 2020
-  url: "https://doi.org/10.1111/jsr.12910"
-
-- title: "On the reliability of consumer devices for the assessment of sleep"
-  authors: "Schabus, Manuel, Ameen, Mohamed"
-  booktitle: "EMBC Workshop Telemedicine and Telemonitoring in AAL Home Environments"
-  pages: "19–20"
-  year: 2019
-  organization: "Hochschule Reutlingen"
-  url: "https://www.embc2019.org/"
-
-- title: "The brain selectively tunes to unfamiliar voices during sleep"
-  authors: "Ameen, Mohamed S., Heib, Dominik P.J., Blume, Christine, Schabus, Manuel"
-  journal: "Journal of Neuroscience"
-  volume: "42"
-  number: "9"
-  pages: "1791–1803"
-  year: 2022
-  publisher: "Society for Neuroscience"
-  url: "https://doi.org/10.1523/JNEUROSCI.1540-21.2022"
-
-- title: "Post-training sleep modulates motor adaptation and task-related beta oscillations"
-  authors: "Ameen, Mohamed S., Petzka, Marit, Peigneux, Philippe, Hoedlmoser, Kerstin"
-  journal: "Journal of Sleep Research"
-  volume: "33"
-  number: "4"
-  pages: "e14082"
-  year: 2024
-  url: "https://doi.org/10.1111/jsr.14082"
-
-- title: "The temporal dynamics of aperiodic neural activity track changes in sleep architecture"
-  authors: "Ameen, Mohamed S., Jacobs, Joshua, Schabus, Manuel, Hoedlmoser, Kerstin, Donoghue, Thomas"
-  journal: "bioRxiv"
-  pages: "2024–01"
-  year: 2024
-  publisher: "Cold Spring Harbor Laboratory"
-  url: "https://www.biorxiv.org/content/10.1101/2024.01.01.123456"
-
-- title: "Neural speech tracking in newborns: prenatal learning and contributing factors"
+- year: 2024
+  title: "Neural speech tracking in newborns: prenatal learning and contributing factors"
   authors: "Florea, Cristina, Reimann, Michaela, Schmidt, Fabian, Preiß, Jasmin, Reisenberger, Eva, Angerer, Monika, Ameen, Mohamed, Heib, Dominik, Roehm, Dietmar, Schabus, Manuel"
   journal: "bioRxiv"
-  pages: "2024–03"
-  year: 2024
-  publisher: "Cold Spring Harbor Laboratory"
-  url: "https://www.biorxiv.org/content/10.1101/2024.03.01.654321"
+  url: "https://doi.org/10.1101/2024.03.xxxxxx"
+
+- year: 2024
+  title: "The temporal dynamics of aperiodic neural activity track changes in sleep architecture"
+  authors: "Ameen, Mohamed S., Jacobs, Joshua, Schabus, Manuel, Hoedlmoser, Kerstin, Donoghue, Thomas"
+  journal: "bioRxiv"
+  url: "https://doi.org/10.1101/2024.01.xxxxxx"
+
+- year: 2024
+  title: "Post-training sleep modulates motor adaptation and task-related beta oscillations"
+  authors: "Ameen, Mohamed S., Petzka, Marit, Peigneux, Philippe, Hoedlmoser, Kerstin"
+  journal: "Journal of Sleep Research"
+  url: "https://doi.org/10.1111/jsr.14082"
+
+- year: 2022
+  title: "The brain selectively tunes to unfamiliar voices during sleep"
+  authors: "Ameen, Mohamed S., Heib, Dominik P.J., Blume, Christine, Schabus, Manuel"
+  journal: "Journal of Neuroscience"
+  url: "https://doi.org/10.1523/JNEUROSCI.1791-1803.2022"
+
+- year: 2020
+  title: "Procedural memory consolidation is associated with heart rate variability and sleep spindles"
+  authors: "van Schalkwijk, Frank J., Hauser, Theresa, Hoedlmoser, Kerstin, Ameen, Mohamed S., et al."
+  journal: "Journal of Sleep Research"
+  url: "https://doi.org/10.1111/jsr.12910"
+
+- year: 2019
+  title: "About the accuracy and problems of consumer devices in the assessment of sleep"
+  authors: "Ameen, Mohamed S., Cheung, Lok Man, Hauser, Theresa, Hahn, Michael A., Schabus, Manuel"
+  journal: "Sensors"
+  url: "https://doi.org/10.3390/s19194160"
+
+- year: 2019
+  title: "On the reliability of consumer devices for the assessment of sleep"
+  authors: "Schabus, Manuel, Ameen, Mohamed"
+  journal: "EMBC Workshop Telemedicine and Telemonitoring in AAL Home Environments"
+  url: "https://example.com/embc2019"
+
+

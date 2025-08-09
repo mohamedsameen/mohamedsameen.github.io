@@ -67,28 +67,26 @@
 }
 
 .pub-year {
-  font-size: 2rem;
   font-weight: bold;
+  font-size: 2rem; /* big year title */
   margin-top: 2rem;
   margin-bottom: 1rem;
-  border-bottom: 2px solid #333;
-  padding-bottom: 0.3rem;
 }
 
 .pub-list {
-  list-style: none;
+  list-style-type: none;
   padding-left: 0;
   margin-bottom: 2rem;
 }
 
 .pub-list li {
-  margin-bottom: 1.2rem;
+  margin-bottom: 1.5rem;
 }
 
 .pub-title a {
-  font-size: 1.1rem;
   font-weight: 600;
-  color: #0066cc;
+  font-size: 1.25rem;
+  color: #0366d6;
   text-decoration: none;
 }
 
@@ -98,13 +96,14 @@
 
 .pub-authors {
   font-size: 0.9rem;
-  color: #555555;
-  margin-top: 0.2rem;
+  color: #555;
+  margin: 0.25rem 0;
 }
 
 .pub-journal {
   font-size: 1rem;
   font-style: italic;
-  margin-top: 0.1rem;
-  color: #222222;
+  color: #333;
+  margin: 0;
 }
+
