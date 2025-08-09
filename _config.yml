@@ -33,6 +33,7 @@ header_pages:
   - blog/index.md
   - research.md
   - projects.md
+  - publications.md
 
 collections:
   research:
