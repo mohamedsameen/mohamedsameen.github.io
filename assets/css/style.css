@@ -74,14 +74,17 @@
 }
 
 .publication-list li {
-  margin-bottom: 1.5rem;
+  margin-bottom: 2rem;
   line-height: 1.4;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 1rem;
 }
 
 .pub-title a {
-  font-size: 1.15rem;
+  font-size: 1rem;  /* smaller than year */
   color: #0066cc;
   text-decoration: none;
+  font-weight: 600;
 }
 
 .pub-title a:hover {
@@ -89,14 +92,21 @@
 }
 
 .pub-authors {
-  font-size: 0.9rem;
+  font-size: 0.85rem;
   color: #555555;
   margin-top: 0.25rem;
 }
 
 .pub-journal {
-  font-size: 1rem;
+  font-size: 0.95rem;
   font-style: italic;
   color: #222222;
   margin-top: 0.1rem;
+}
+
+.pub-year {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-top: 0.5rem;
+  color: #333333;
 }
