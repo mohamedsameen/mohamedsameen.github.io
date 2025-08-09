@@ -6,7 +6,7 @@ nav: true  # Show in navigation
 nav_order: 2  # Adjust position (e.g., 2 = after Home)
 ---
 
-[Download CV as PDF](/assets/files/AMEEN_Resume_AUG25.pdf){: .btn .btn--primary}
+[Download CV as PDF](/assets/files/AMEEN_Resume_LTX.pdf){: .btn .btn--primary}
 
 
 ## RESEARCH EXPERIENCE
