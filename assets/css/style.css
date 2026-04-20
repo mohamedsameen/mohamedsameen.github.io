@@ -1,0 +1,109 @@
+/* Nuclear option for hero image */
+.page__hero {
+    position: relative;
+    width: 100vw;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    overflow: hidden;
+    height: 250px; /* Set your exact desired height */
+}
+
+.page__hero img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+}
+
+/* Center-aligned content */
+.home .page__content {
+    max-width: 700px;
+    margin: 2rem auto;
+    padding: 0 1.5rem;
+    text-align: center;
+}
+
+.profile-header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.subtitle {
+    color: #4c566a; /* Subtle gray */
+    font-size: 1.2rem;
+    margin-top: -0.8rem;
+}
+
+.page__header--with-icon {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.page__header-icon {
+  height: 40px;
+  width: auto;
+}
+
+/* Completely remove red lines from bio-icons */
+.bio-icons a {
+  display: inline-flex;       /* shrink to fit content */
+  align-items: center;        /* vertically center icon */
+  justify-content: center;
+  padding: 0;                  /* remove extra space */
+  margin: 0 10px;              /* spacing between icons */
+  text-decoration: none;       /* remove underline */
+  border: none;                /* no red line */
+  background: none;            /* no background */
+  width: auto;
+  height: auto;
+}
+.bio-icons a img {
+  height: 50px; /* bigger icons */
+  width: auto;
+}
+
+.pub-year {
+  font-weight: bold;
+  font-size: 2rem; /* big year title */
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.pub-list {
+  list-style-type: none;
+  padding-left: 0;
+  margin-bottom: 2rem;
+}
+
+.pub-list li {
+  margin-bottom: 1.5rem;
+}
+
+.pub-title a {
+  font-weight: 600;
+  font-size: 1.25rem;
+  color: #0366d6;
+  text-decoration: none;
+}
+
+.pub-title a:hover {
+  text-decoration: underline;
+}
+
+.pub-authors {
+  font-size: 0.9rem;
+  color: #555;
+  margin: 0.25rem 0;
+}
+
+.pub-journal {
+  font-size: 1rem;
+  font-style: italic;
+  color: #333;
+  margin: 0;
+}
+
