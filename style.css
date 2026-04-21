@@ -305,6 +305,321 @@ strong { font-weight: 600; }
   text-align: center;
 }
 
+/* =========================================================
+   CV page — interactive elements
+   ========================================================= */
+
+.cv-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-bottom: 1.5rem;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.55rem 1rem;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  color: var(--text);
+  background: var(--panel);
+  font-size: 0.9rem;
+  text-decoration: none;
+  transition: border-color 0.15s ease, color 0.15s ease, background 0.15s ease;
+}
+
+.btn:hover {
+  color: var(--accent);
+  border-color: var(--accent);
+  background: rgba(106, 166, 255, 0.08);
+}
+
+/* Stats strip */
+.stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 1rem;
+  margin: 1rem 0 1.5rem;
+}
+
+.stat {
+  padding: 1rem 1.2rem;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--panel);
+}
+
+.stat-num {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--accent);
+  letter-spacing: -0.01em;
+}
+
+.stat-label {
+  color: var(--muted);
+  font-size: 0.82rem;
+  margin-top: 0.1rem;
+}
+
+.summary {
+  color: var(--text);
+  margin: 1rem 0 2rem;
+}
+
+.hint {
+  font-size: 0.8rem;
+  font-weight: 400;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+/* Skills */
+.skills {
+  display: grid;
+  gap: 0.8rem;
+  margin-top: 0.5rem;
+}
+
+.skill-row {
+  display: grid;
+  grid-template-columns: 160px 1fr;
+  gap: 1rem;
+  align-items: center;
+}
+
+.skill-label {
+  color: var(--muted);
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.chip {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.3rem;
+  padding: 0.3rem 0.65rem;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: var(--panel);
+  color: var(--text);
+  font-size: 0.85rem;
+  line-height: 1.3;
+}
+
+.chip small {
+  color: var(--muted);
+  font-size: 0.7rem;
+}
+
+/* Experience accordions */
+.timeline {
+  margin-top: 0.5rem;
+  border-top: 1px solid var(--border);
+}
+
+details.role {
+  border-bottom: 1px solid var(--border);
+}
+
+details.role > summary {
+  cursor: pointer;
+  list-style: none;
+  padding: 0.9rem 0.2rem;
+  transition: background 0.15s ease;
+}
+
+details.role > summary::-webkit-details-marker { display: none; }
+details.role > summary::marker { display: none; }
+
+details.role > summary:hover {
+  background: rgba(106, 166, 255, 0.04);
+}
+
+.role-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1rem;
+}
+
+.role-meta { flex: 1; min-width: 0; }
+
+.role-title {
+  font-weight: 600;
+  color: var(--text);
+}
+
+.role-org {
+  color: var(--muted);
+  font-size: 0.9rem;
+  margin-top: 0.15rem;
+}
+
+.role-right {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  flex-shrink: 0;
+}
+
+.role-date {
+  color: var(--muted);
+  font-size: 0.85rem;
+  white-space: nowrap;
+}
+
+.chev {
+  color: var(--muted);
+  transition: transform 0.2s ease;
+  flex-shrink: 0;
+}
+
+details.role[open] .chev { transform: rotate(180deg); }
+
+.role-bullets {
+  margin: 0.2rem 0 1rem 1.2rem;
+  padding: 0;
+  color: var(--text);
+}
+
+.role-bullets li {
+  margin: 0.35rem 0;
+  line-height: 1.55;
+}
+
+/* Education timeline */
+.edu {
+  display: grid;
+  gap: 0.4rem;
+  margin-top: 0.5rem;
+}
+
+.edu-item {
+  display: grid;
+  grid-template-columns: 70px 1fr;
+  gap: 1rem;
+  padding: 0.55rem 0;
+  border-bottom: 1px dotted var(--border);
+}
+
+.edu-item:last-child { border-bottom: none; }
+
+.edu-year {
+  color: var(--accent);
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.edu-title {
+  font-weight: 600;
+}
+
+.edu-org {
+  color: var(--muted);
+  font-size: 0.9rem;
+  margin-top: 0.1rem;
+}
+
+/* Awards */
+.awards {
+  display: grid;
+  gap: 0.25rem;
+  margin-top: 0.5rem;
+}
+
+.award {
+  display: grid;
+  grid-template-columns: 80px 1fr 60px;
+  gap: 1rem;
+  align-items: baseline;
+  padding: 0.6rem 0;
+  border-bottom: 1px dotted var(--border);
+}
+
+.award:last-child { border-bottom: none; }
+
+.award-amt {
+  display: inline-block;
+  padding: 0.15rem 0.55rem;
+  border: 1px solid var(--accent);
+  border-radius: 999px;
+  color: var(--accent);
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.award-name { color: var(--text); }
+.award-year { color: var(--muted); font-size: 0.9rem; text-align: right; }
+
+/* Outreach list */
+.outreach-list {
+  list-style: none;
+  padding: 0;
+  margin: 0.5rem 0 0;
+}
+
+.outreach-list li {
+  padding: 0.5rem 0;
+  border-bottom: 1px dotted var(--border);
+}
+
+.outreach-list li:last-child { border-bottom: none; }
+
+/* References */
+.refs {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 0.9rem;
+  margin-top: 0.5rem;
+}
+
+.ref {
+  padding: 0.9rem 1rem;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--panel);
+}
+
+.ref-name { font-weight: 600; }
+.ref-role { color: var(--muted); font-size: 0.85rem; margin-top: 0.2rem; }
+.ref-org { color: var(--muted); font-size: 0.85rem; margin-bottom: 0.4rem; }
+
+/* Responsive CV */
+@media (max-width: 620px) {
+  .skill-row {
+    grid-template-columns: 1fr;
+    gap: 0.3rem;
+  }
+  .award {
+    grid-template-columns: 70px 1fr;
+    grid-template-areas:
+      "amt name"
+      ".   year";
+  }
+  .award-amt { grid-area: amt; }
+  .award-name { grid-area: name; }
+  .award-year { grid-area: year; text-align: left; }
+
+  .role-head {
+    flex-wrap: wrap;
+  }
+  .role-right { margin-top: 0.25rem; }
+}
+
 /* -------- Selection -------- */
 ::selection {
   background: rgba(106, 166, 255, 0.25);
