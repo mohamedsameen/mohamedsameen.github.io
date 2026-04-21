@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>CV — Mohamed Ameen</title>
-  <meta name="description" content="CV of Mohamed S. Ameen." />
+  <meta name="description" content="CV of Mohamed S. Ameen — neuroscientist, data scientist, sleep expert." />
   <meta name="color-scheme" content="dark" />
   <link rel="stylesheet" href="style.css" />
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%A7%A0%3C/text%3E%3C/svg%3E" />
@@ -25,53 +25,297 @@
 
   <main class="wrap">
     <section>
-      <h1 class="page-title">CV</h1>
-      <p>Full CV as <a href="cv.pdf">PDF</a>. Summary below.</p>
 
-      <h3>Education</h3>
-      <ul class="cv">
-        <li>
-          <span class="cv-date">20XX – present</span>
-          <span><strong>PhD, Neuroscience</strong> — Your University. Advisor: <em>Name</em>.</span>
-        </li>
-        <li>
-          <span class="cv-date">20XX – 20XX</span>
-          <span><strong>MSc / BSc, Field</strong> — Prior Institution.</span>
-        </li>
+      <div class="cv-top">
+        <div>
+          <h1 class="page-title">CV</h1>
+          <p class="muted">Neuroscientist · Data Scientist · Sleep Expert</p>
+        </div>
+        <a class="btn" href="assets/cv.pdf" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+          Download PDF
+        </a>
+      </div>
+
+      <!-- Stats -->
+      <div class="stats" aria-label="Career summary">
+        <div class="stat">
+          <div class="stat-num">10+</div>
+          <div class="stat-label">years in research</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num">&euro;515k+</div>
+          <div class="stat-label">funding secured</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num">10</div>
+          <div class="stat-label">peer-reviewed publications</div>
+        </div>
+      </div>
+
+      <p class="summary">
+        PhD-trained neuroscientist and data scientist with ~10 years of experience analyzing complex biomedical and
+        sleep data and developing scalable pipelines. Expert in Python-based analysis of EEG, cardiac, and sensor
+        signals; focused on algorithm development, model validation, and translating insights into actionable
+        digital-health solutions.
+      </p>
+
+      <!-- Skills -->
+      <h2>Skills</h2>
+      <div class="skills">
+        <div class="skill-row">
+          <div class="skill-label">Technical</div>
+          <div class="chips">
+            <span class="chip">Python</span>
+            <span class="chip">R</span>
+            <span class="chip">MATLAB</span>
+            <span class="chip">SQL</span>
+            <span class="chip">Git</span>
+            <span class="chip">LaTeX</span>
+          </div>
+        </div>
+        <div class="skill-row">
+          <div class="skill-label">Machine learning</div>
+          <div class="chips">
+            <span class="chip">Scikit-Learn</span>
+            <span class="chip">PyTorch</span>
+            <span class="chip">(Un)supervised</span>
+            <span class="chip">Deep learning</span>
+            <span class="chip">Model validation</span>
+          </div>
+        </div>
+        <div class="skill-row">
+          <div class="skill-label">Cloud / MLOps</div>
+          <div class="chips">
+            <span class="chip">Google Colab</span>
+            <span class="chip">AWS</span>
+            <span class="chip">Data pipelines</span>
+            <span class="chip">Workflow automation</span>
+          </div>
+        </div>
+        <div class="skill-row">
+          <div class="skill-label">Data analysis</div>
+          <div class="chips">
+            <span class="chip">Statistical modeling</span>
+            <span class="chip">Regression</span>
+            <span class="chip">Multilevel models</span>
+            <span class="chip">Time-series</span>
+          </div>
+        </div>
+        <div class="skill-row">
+          <div class="skill-label">Domain</div>
+          <div class="chips">
+            <span class="chip">Sleep science</span>
+            <span class="chip">M/EEG</span>
+            <span class="chip">fMRI</span>
+            <span class="chip">HRV</span>
+            <span class="chip">Biosensors</span>
+            <span class="chip">Digital health</span>
+            <span class="chip">Sleep-disorder detection</span>
+          </div>
+        </div>
+        <div class="skill-row">
+          <div class="skill-label">Languages</div>
+          <div class="chips">
+            <span class="chip">Arabic <small>native</small></span>
+            <span class="chip">English <small>fluent</small></span>
+            <span class="chip">German <small>B2</small></span>
+            <span class="chip">French <small>basic</small></span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Experience -->
+      <h2>Experience <span class="muted hint">(click to expand)</span></h2>
+      <div class="timeline">
+
+        <details class="role" open>
+          <summary>
+            <div class="role-head">
+              <div class="role-meta">
+                <div class="role-title">Research Scientist — R&amp;D</div>
+                <div class="role-org">The Siesta Group GmbH · Vienna, Austria</div>
+              </div>
+              <div class="role-right">
+                <div class="role-date">Nov 2025 — present</div>
+                <svg class="chev" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+              </div>
+            </div>
+          </summary>
+          <ul class="role-bullets">
+            <li>Developing physiological biomarkers to enhance early identification of subclinical sleep apnea and support clinical decision-making.</li>
+            <li>Applying advanced machine learning to generate interpretable insights into sleep physiology and inform data-driven healthcare decisions.</li>
+          </ul>
+        </details>
+
+        <details class="role">
+          <summary>
+            <div class="role-head">
+              <div class="role-meta">
+                <div class="role-title">Senior Scientist</div>
+                <div class="role-org">Center for Cognitive Neuroscience, Salzburg University · Salzburg, Austria</div>
+              </div>
+              <div class="role-right">
+                <div class="role-date">Apr 2024 — Oct 2025</div>
+                <svg class="chev" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+              </div>
+            </div>
+          </summary>
+          <ul class="role-bullets">
+            <li>Guided junior researchers and team members in complex ML and signal-processing projects.</li>
+            <li>Developed automated ML pipelines for data analysis, reducing analysis time by 25% and supporting downstream validation.</li>
+            <li>Built reproducible, well-documented workflows to streamline data management and ensure efficient knowledge transfer.</li>
+          </ul>
+        </details>
+
+        <details class="role">
+          <summary>
+            <div class="role-head">
+              <div class="role-meta">
+                <div class="role-title">Visiting Scholar</div>
+                <div class="role-org">Department of Biomedical Engineering, Columbia University · New York, USA</div>
+              </div>
+              <div class="role-right">
+                <div class="role-date">Oct 2022 — Feb 2023</div>
+                <svg class="chev" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+              </div>
+            </div>
+          </summary>
+          <ul class="role-bullets">
+            <li>Built end-to-end pipelines combining computational modeling, simulations, and ML for neural signal analysis.</li>
+            <li>Published open-source neural-data analysis frameworks on GitHub, adopted by multiple research projects.</li>
+          </ul>
+        </details>
+
+        <details class="role">
+          <summary>
+            <div class="role-head">
+              <div class="role-meta">
+                <div class="role-title">PhD Researcher <span class="muted">(incl. predoctoral RA)</span></div>
+                <div class="role-org">Lab for Sleep &amp; Consciousness Research, Salzburg University · Salzburg, Austria</div>
+              </div>
+              <div class="role-right">
+                <div class="role-date">Mar 2017 — Mar 2024</div>
+                <svg class="chev" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+              </div>
+            </div>
+          </summary>
+          <ul class="role-bullets">
+            <li>Designed and validated scalable pipelines for EEG, fMRI, EOG, ECG, and actigraphy datasets.</li>
+            <li>Developed ML-based feature extraction and classification algorithms for sleep and cognitive biomarkers.</li>
+            <li>Performed data analyses supporting regulatory and clinical validation of sleep-monitoring algorithms (65+ citations).</li>
+            <li>Led multi-site international collaborations, resulting in 3 publications.</li>
+            <li>Secured €160k in PhD and postdoctoral funding.</li>
+          </ul>
+        </details>
+
+        <details class="role">
+          <summary>
+            <div class="role-head">
+              <div class="role-meta">
+                <div class="role-title">Data Scientist — Digital Health R&amp;D</div>
+                <div class="role-org">Proschlaf GmbH · Salzburg, Austria</div>
+              </div>
+              <div class="role-right">
+                <div class="role-date">Mar — Aug 2019</div>
+                <svg class="chev" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+              </div>
+            </div>
+          </summary>
+          <ul class="role-bullets">
+            <li>Evaluated performance of a biometric sleep-monitoring device, informing diagnostics strategy and product improvement.</li>
+            <li>Delivered data-analysis reports to R&amp;D stakeholders, influencing product-development roadmap.</li>
+          </ul>
+        </details>
+
+        <details class="role">
+          <summary>
+            <div class="role-head">
+              <div class="role-meta">
+                <div class="role-title">Earlier roles</div>
+                <div class="role-org">Pharmacy, Cambridge, Freiburg</div>
+              </div>
+              <div class="role-right">
+                <div class="role-date">2015 — 2017</div>
+                <svg class="chev" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+              </div>
+            </div>
+          </summary>
+          <ul class="role-bullets">
+            <li><strong>Senior pharmacist</strong>, S.A.T Pharmacies, Egypt — oversaw daily operations and patients' treatment plans. <span class="muted">Oct 2016 – Feb 2017</span></li>
+            <li><strong>Research Assistant</strong>, University of Cambridge, UK — neuroimaging analyses on cognition and sleep. <span class="muted">Feb – Jul 2016</span></li>
+            <li><strong>Research Assistant</strong>, University Clinic Freiburg, Germany — structural brain alterations in epilepsy patients. <span class="muted">Sep 2015 – Jan 2016</span></li>
+          </ul>
+        </details>
+
+      </div>
+
+      <!-- Education -->
+      <h2>Education</h2>
+      <div class="edu">
+        <div class="edu-item">
+          <div class="edu-year">2024</div>
+          <div class="edu-body">
+            <div class="edu-title">PhD, Cognitive Neuroscience</div>
+            <div class="edu-org">University of Salzburg, Austria</div>
+          </div>
+        </div>
+        <div class="edu-item">
+          <div class="edu-year">2016</div>
+          <div class="edu-body">
+            <div class="edu-title">MSc, Neuroscience</div>
+            <div class="edu-org">University of Strasbourg, France</div>
+          </div>
+        </div>
+        <div class="edu-item">
+          <div class="edu-year">2013</div>
+          <div class="edu-body">
+            <div class="edu-title">BSc, Pharmacy</div>
+            <div class="edu-org">Cairo University, Egypt <span class="muted">— recognized as equivalent by University of Vienna, Austria</span></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Fellowships & Awards -->
+      <h2>Fellowships &amp; Awards</h2>
+      <div class="awards">
+        <div class="award">
+          <span class="award-amt">&euro;350k</span>
+          <span class="award-name">ESPRIT Fellowship — Austrian Science Fund (FWF) <span class="muted">· Early-career independent research project</span></span>
+          <span class="award-year">2026</span>
+        </div>
+        <div class="award">
+          <span class="award-amt">&euro;45k</span>
+          <span class="award-name">Postdoctoral Fellowship — Salzburg University <span class="muted">· Early-career independent researcher</span></span>
+          <span class="award-year">2024</span>
+        </div>
+        <div class="award">
+          <span class="award-amt">&euro;6k</span>
+          <span class="award-name">Young Investigator Award — German Sleep Society (DGSM)</span>
+          <span class="award-year">2023</span>
+        </div>
+        <div class="award">
+          <span class="award-amt">&euro;115k</span>
+          <span class="award-name">DOC Doctoral Fellowship — Austrian Academy of Sciences (&Ouml;AW)</span>
+          <span class="award-year">2019</span>
+        </div>
+      </div>
+
+      <!-- Outreach -->
+      <h2>Outreach &amp; Teaching</h2>
+      <ul class="outreach-list">
+        <li>8 oral presentations and 15+ poster presentations at international conferences <span class="muted">· 2017–2025</span></li>
+        <li>Guest Editor, <em>Frontiers in Sleep</em> — <em>Understanding Conscious Experience during Sleep</em> <span class="muted">· 2024–present</span></li>
+        <li>Guest Lecturer, University of Salzburg — EEG Analysis &amp; Neuropsychology of Consciousness <span class="muted">· 2023–2024</span></li>
+        <li>Guest Lecturer, EFPSA — Workshop on the Neuroscience of Dreams <span class="muted">· 2022</span></li>
       </ul>
 
-      <h3>Research positions</h3>
-      <ul class="cv">
-        <li>
-          <span class="cv-date">20XX – present</span>
-          <span><strong>Graduate researcher</strong>, Lab Name.</span>
-        </li>
-        <li>
-          <span class="cv-date">20XX</span>
-          <span><strong>Research intern</strong>, Other Lab.</span>
-        </li>
-      </ul>
-
-      <h3>Skills</h3>
-      <ul class="cv">
-        <li><span></span><span><strong>Methods:</strong> electrophysiology, two-photon imaging, behavioral paradigms, computational modeling.</span></li>
-        <li><span></span><span><strong>Programming:</strong> Python (NumPy, PyTorch, scikit-learn), MATLAB, R, Git.</span></li>
-        <li><span></span><span><strong>Tools:</strong> Neuropixels pipelines, Suite2p, Kilosort, DeepLabCut.</span></li>
-      </ul>
-
-      <h3>Awards &amp; grants</h3>
-      <ul class="cv">
-        <li>
-          <span class="cv-date">20XX</span>
-          <span>Award / fellowship name.</span>
-        </li>
-      </ul>
     </section>
   </main>
 
   <footer class="site-footer">
     <div class="wrap">
-      &copy; <span id="year"></span> Mohamed Ameen · built with HTML &amp; CSS · hosted on GitHub Pages
+      &copy; <span id="year"></span> Mohamed Ameen &middot; built with HTML &amp; CSS &middot; hosted on GitHub Pages
     </div>
   </footer>
 
