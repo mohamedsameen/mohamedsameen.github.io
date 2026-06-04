@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Media — Mohamed Ameen</title>
+  <meta name="description" content="Interviews, podcasts, and pieces by Mohamed S. Ameen." />
+  <meta name="color-scheme" content="dark" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%A7%A0%3C/text%3E%3C/svg%3E" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="wrap">
+      <a href="index.html" class="brand"><em>Signals of Thought</em></a>
+      <nav class="nav" aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="publications.html">Publications</a>
+        <a href="cv.html">CV</a>
+        <a href="media.html" class="current">Media</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section>
+      <h1 class="page-title">Media</h1>
+      <p class="muted">Interviews, podcasts, and pieces I&rsquo;ve contributed to. Click a card to open the original.</p>
+
+      <div class="media-grid">
+
+        <!-- ============================================================
+             MEDIA CARD TEMPLATE — copy this whole <a>…</a> block per item.
+             1) Save the image as assets/images/media-XX.jpg (or .png/.webp)
+             2) Set href to the published piece
+             3) Pick a type label: Interview · Podcast · Op-ed · Article · Video · Talk
+             ============================================================ -->
+
+        <a href="https://example.com/interview-1" class="media-card" target="_blank" rel="noopener">
+          <div class="media-img">
+            <img src="assets/images/media-1.jpg" alt="" loading="lazy" />
+            <span class="media-type">Interview</span>
+          </div>
+          <div class="media-body">
+            <div class="media-meta">Outlet name <span>&middot;</span> Month Year</div>
+            <div class="media-title">Title of the interview goes here.</div>
+            <p class="media-desc">One- or two-line summary of what the conversation was about.</p>
+          </div>
+        </a>
+
+        <a href="https://example.com/podcast-1" class="media-card" target="_blank" rel="noopener">
+          <div class="media-img">
+            <img src="assets/images/media-2.jpg" alt="" loading="lazy" />
+            <span class="media-type">Podcast</span>
+          </div>
+          <div class="media-body">
+            <div class="media-meta">Show name <span>&middot;</span> Month Year</div>
+            <div class="media-title">Episode title or the topic discussed.</div>
+            <p class="media-desc">What you talked about &mdash; sleep, cognition, the brain &mdash; in plain language.</p>
+          </div>
+        </a>
+
+        <a href="https://example.com/op-ed-1" class="media-card" target="_blank" rel="noopener">
+          <div class="media-img">
+            <img src="assets/images/media-3.jpg" alt="" loading="lazy" />
+            <span class="media-type">Op-ed</span>
+          </div>
+          <div class="media-body">
+            <div class="media-meta">Publication <span>&middot;</span> Month Year</div>
+            <div class="media-title">Headline of the article you wrote.</div>
+            <p class="media-desc">Brief framing of the argument or the question you were answering.</p>
+          </div>
+        </a>
+
+        <a href="https://example.com/talk-1" class="media-card" target="_blank" rel="noopener">
+          <div class="media-img">
+            <img src="assets/images/media-4.jpg" alt="" loading="lazy" />
+            <span class="media-type">Talk</span>
+          </div>
+          <div class="media-body">
+            <div class="media-meta">Venue or conference <span>&middot;</span> Month Year</div>
+            <div class="media-title">Title of the public lecture or panel.</div>
+            <p class="media-desc">Short note on the audience and what you covered.</p>
+          </div>
+        </a>
+
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      &copy; <span id="year"></span> Mohamed Ameen &middot; built with HTML &amp; CSS &middot; hosted on GitHub Pages
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
