@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Media — Mohamed Ameen</title>
-  <meta name="description" content="Interviews, podcasts, and pieces by Mohamed S. Ameen." />
+  <meta name="description" content="Interviews, podcasts, and press coverage featuring Mohamed S. Ameen." />
   <meta name="color-scheme" content="dark" />
   <link rel="stylesheet" href="style.css" />
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%A7%A0%3C/text%3E%3C/svg%3E" />
@@ -27,62 +27,72 @@
   <main class="wrap">
     <section>
       <h1 class="page-title">Media</h1>
-      <p class="muted">Interviews, podcasts, and pieces I&rsquo;ve contributed to. Click a card to open the original.</p>
+      <p class="muted">Podcasts, features, and press coverage of my research. Click a card to open the original.</p>
 
       <div class="media-grid">
 
-        <!-- ============================================================
-             MEDIA CARD TEMPLATE — copy this whole <a>…</a> block per item.
-             1) Save the image as assets/images/media-XX.jpg (or .png/.webp)
-             2) Set href to the published piece
-             3) Pick a type label: Interview · Podcast · Op-ed · Article · Video · Talk
-             ============================================================ -->
-
-        <a href="https://example.com/interview-1" class="media-card" target="_blank" rel="noopener">
-          <div class="media-img">
-            <img src="assets/images/media-1.jpg" alt="" loading="lazy" />
-            <span class="media-type">Interview</span>
-          </div>
-          <div class="media-body">
-            <div class="media-meta">Outlet name <span>&middot;</span> Month Year</div>
-            <div class="media-title">Title of the interview goes here.</div>
-            <p class="media-desc">One- or two-line summary of what the conversation was about.</p>
-          </div>
-        </a>
-
-        <a href="https://example.com/podcast-1" class="media-card" target="_blank" rel="noopener">
-          <div class="media-img">
-            <img src="assets/images/media-2.jpg" alt="" loading="lazy" />
+        <!-- 1. Podcast (most recent) -->
+        <a href="https://www.youtube.com/watch?v=Ld6yfV4Gk6U&t=1393s" class="media-card" target="_blank" rel="noopener">
+          <div class="media-img" data-outlet="YouTube">
+            <img src="assets/images/media-podcast.jpg" alt="" loading="lazy" onerror="this.parentNode.classList.add('no-img');this.remove();" />
             <span class="media-type">Podcast</span>
           </div>
           <div class="media-body">
-            <div class="media-meta">Show name <span>&middot;</span> Month Year</div>
-            <div class="media-title">Episode title or the topic discussed.</div>
-            <p class="media-desc">What you talked about &mdash; sleep, cognition, the brain &mdash; in plain language.</p>
+            <div class="media-meta">YouTube <span>&middot;</span> 2025</div>
+            <div class="media-title">A long-form conversation on sleep, cognition, and the sleeping brain.</div>
+            <p class="media-desc">Discussing what the brain is doing at night and how it shapes thought, memory, and behavior the next day.</p>
           </div>
         </a>
 
-        <a href="https://example.com/op-ed-1" class="media-card" target="_blank" rel="noopener">
-          <div class="media-img">
-            <img src="assets/images/media-3.jpg" alt="" loading="lazy" />
-            <span class="media-type">Op-ed</span>
+        <!-- 2. ESRS Sleep Science Friday (latest article) -->
+        <a href="https://esrs.eu/news/sleep-science-friday/temporally-resolved-analyses-of-aperiodic-features-track-neural-dynamics-during-sleep/" class="media-card" target="_blank" rel="noopener">
+          <div class="media-img" data-outlet="ESRS">
+            <img src="assets/images/media-esrs.jpg" alt="" loading="lazy" onerror="this.parentNode.classList.add('no-img');this.remove();" />
+            <span class="media-type">Article</span>
           </div>
           <div class="media-body">
-            <div class="media-meta">Publication <span>&middot;</span> Month Year</div>
-            <div class="media-title">Headline of the article you wrote.</div>
-            <p class="media-desc">Brief framing of the argument or the question you were answering.</p>
+            <div class="media-meta">ESRS &middot; Sleep Science Friday <span>&middot;</span> 2025</div>
+            <div class="media-title">Temporally resolved analyses of aperiodic features track neural dynamics during sleep.</div>
+            <p class="media-desc">European Sleep Research Society feature on our <em>Communications Psychology</em> paper showing how aperiodic neural activity tracks sleep-stage transitions.</p>
           </div>
         </a>
 
-        <a href="https://example.com/talk-1" class="media-card" target="_blank" rel="noopener">
-          <div class="media-img">
-            <img src="assets/images/media-4.jpg" alt="" loading="lazy" />
-            <span class="media-type">Talk</span>
+        <!-- 3. Al Jazeera (Arabic) -->
+        <a href="https://www.aljazeera.net/science/2022/1/25/%d8%af%d8%b1%d8%a7%d8%b3%d8%a9-%d8%ad%d8%af%d9%8a%d8%ab%d8%a9-%d8%a3%d8%af%d9%85%d8%ba%d8%aa%d9%86%d8%a7-%d8%aa%d8%a8%d9%82%d9%8a%d9%86%d8%a7-%d8%b9%d9%84%d9%89-%d9%82%d9%8a%d8%af" class="media-card" target="_blank" rel="noopener">
+          <div class="media-img" data-outlet="Al Jazeera">
+            <img src="assets/images/media-aljazeera.jpg" alt="" loading="lazy" onerror="this.parentNode.classList.add('no-img');this.remove();" />
+            <span class="media-type">Press</span>
           </div>
           <div class="media-body">
-            <div class="media-meta">Venue or conference <span>&middot;</span> Month Year</div>
-            <div class="media-title">Title of the public lecture or panel.</div>
-            <p class="media-desc">Short note on the audience and what you covered.</p>
+            <div class="media-meta">Al Jazeera &middot; Science (Arabic) <span>&middot;</span> Jan 2022</div>
+            <div class="media-title">Arabic coverage: the sleeping brain selectively processes unfamiliar voices.</div>
+            <p class="media-desc">Arabic-language feature on our <em>Journal of Neuroscience</em> study showing that the brain continues to attend to behaviorally relevant sounds during NREM sleep.</p>
+          </div>
+        </a>
+
+        <!-- 4. Daily Mail -->
+        <a href="https://www.dailymail.com/sciencetech/article-10410455/Our-brain-pays-attention-unfamiliar-voices-sleep-study-finds.html" class="media-card" target="_blank" rel="noopener">
+          <div class="media-img" data-outlet="Daily Mail">
+            <img src="assets/images/media-dailymail.jpg" alt="" loading="lazy" onerror="this.parentNode.classList.add('no-img');this.remove();" />
+            <span class="media-type">Press</span>
+          </div>
+          <div class="media-body">
+            <div class="media-meta">Daily Mail &middot; Science &amp; Tech <span>&middot;</span> Jan 2022</div>
+            <div class="media-title">Our brain pays attention to unfamiliar voices in sleep, study finds.</div>
+            <p class="media-desc">International press coverage of our <em>Journal of Neuroscience</em> paper on K-complexes and selective auditory processing during sleep.</p>
+          </div>
+        </a>
+
+        <!-- 5. ORF Science (Austria) -->
+        <a href="https://science.orf.at/stories/3210907/" class="media-card" target="_blank" rel="noopener">
+          <div class="media-img" data-outlet="ORF">
+            <img src="assets/images/media-orf.jpg" alt="" loading="lazy" onerror="this.parentNode.classList.add('no-img');this.remove();" />
+            <span class="media-type">Press</span>
+          </div>
+          <div class="media-body">
+            <div class="media-meta">ORF Science (Austria) <span>&middot;</span> 2022</div>
+            <div class="media-title">Austrian public-broadcaster coverage of our sleep &amp; cognition research.</div>
+            <p class="media-desc">Feature by ORF&rsquo;s science desk on how the brain selectively tunes to unfamiliar voices during sleep.</p>
           </div>
         </a>
 

@@ -654,8 +654,25 @@ details.role[open] .chev { transform: rotate(180deg); }
 .media-img {
   position: relative;
   aspect-ratio: 16 / 9;
-  background: #1c2129;
+  background: linear-gradient(135deg, #1a1f27 0%, #20262f 100%);
   overflow: hidden;
+}
+
+/* Fallback caption shown when img fails / not yet added */
+.media-img.no-img::before {
+  content: attr(data-outlet);
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--muted);
+  font-size: 1.1rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  font-weight: 600;
+  text-align: center;
+  padding: 1rem;
 }
 
 .media-img img {
